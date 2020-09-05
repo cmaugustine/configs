@@ -1,0 +1,63 @@
+==> Making package: polybar 3.4.3-2 (Sat Sep  5 15:48:07 2020)
+==> Retrieving sources...
+  -> Found polybar-3.4.3.tar
+==> Validating source files with sha256sums...
+    polybar-3.4.3.tar ... Passed
+==> Making package: polybar 3.4.3-2 (Sat Sep  5 15:48:08 2020)
+==> Checking runtime dependencies...
+==> Checking buildtime dependencies...
+==> Retrieving sources...
+  -> Found polybar-3.4.3.tar
+==> Validating source files with sha256sums...
+    polybar-3.4.3.tar ... Passed
+==> Removing existing $srcdir/ directory...
+==> Extracting sources...
+  -> Extracting polybar-3.4.3.tar with bsdtar
+==> Starting prepare()...
+==> Sources are ready.
+==> Making package: polybar 3.4.3-2 (Sat Sep  5 15:48:10 2020)
+==> Checking runtime dependencies...
+==> Checking buildtime dependencies...
+==> WARNING: Using existing $srcdir/ tree
+==> Sources are ready.
+ -> polybar-3.4.3-2 already made -- skipping build
+loading packages...
+resolving dependencies...
+looking for conflicting packages...
+:: polybar and polybar-git are in conflict. Remove polybar-git? [y/N] y
+
+Packages (2) polybar-git-3.4.0.r115.g2f4cffc0-1 [removal]  polybar-3.4.3-2
+
+Total Installed Size:  0.00 MiB
+Net Upgrade Size:      0.00 MiB
+
+:: Proceed with installation? [Y/n] 
+(1/1) checking keys in keyring                               [################################] 100%
+(1/1) checking package integrity                             [################################] 100%
+(1/1) loading package files                                  [################################] 100%
+(1/1) checking for file conflicts                            [################################] 100%
+(2/2) checking available disk space                          [################################] 100%
+:: Processing package changes...
+(1/1) removing polybar-git                                   [################################] 100%
+(1/1) installing polybar                                     [################################] 100%
+
+  Get started with the example configuration:
+
+    $ install -Dm644 /usr/share/doc/polybar/config $HOME/.config/polybar/config
+    $ polybar example
+
+  For more information, see https://github.com/polybar/polybar/wiki
+
+Optional dependencies for polybar
+    i3-wm: i3 module support [installed]
+    ttf-unifont: Font used in example config
+    siji-git: Font used in example config
+    xorg-fonts-misc: Font used in example config
+ldconfig: File /usr/lib/libuv.so.1 is empty, not checked.
+ldconfig: File /usr/lib/libuv.so.1.0.0 is empty, not checked.
+ldconfig: File /usr/lib/librhash.so.0 is empty, not checked.
+ldconfig: File /usr/lib/libuv.so is empty, not checked.
+ldconfig: File /usr/lib/librhash.so is empty, not checked.
+:: Running post-transaction hooks...
+(1/1) Arming ConditionNeedsUpdate...
+
